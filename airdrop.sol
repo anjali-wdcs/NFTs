@@ -8,7 +8,7 @@ abstract contract Token {
     event Transferred(address indexed from, address indexed to, uint indexed amount);
 }
 
-contract creation is Ownable {
+contract airdropCreation is Ownable {
     Token public tokInstance;
     
     constructor(address _tokAdr) {
